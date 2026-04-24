@@ -1,0 +1,1 @@
+ffmpeg -i your_video.avi -c:v libx264 -preset slow -crf 18 -pix_fmt yuv420p -vsync cfr -r 30 output_fixed.mp4
